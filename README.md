@@ -1,26 +1,44 @@
 # Hi, I'm Shizwan 👋
 
-I build practical software with Python and TypeScript, with a focus on reliable automation, clear tests, and tools that are useful to other developers.
+**Technical Project Management · AI & Workflow Automation · Python · TypeScript · Open Source**
 
-## Featured project
+I work at the intersection of **project delivery and hands-on software engineering**. I enjoy turning complex requirements into practical tools—and making sure those tools are reliable, testable, and easy for others to understand.
+
+I'm particularly interested in the failures that aren't obvious at first glance: incomplete data, misleading results, fragile integrations, and developer workflows that break quietly.
+
+## 🚀 Featured project
 
 ### [OpenRange Backtest](https://github.com/shizwan/stocks-prediction)
 
-An experimental Python and Streamlit project for exploring opening-range patterns in intraday market data. It emphasizes reproducible research, explicit data-quality checks, and transparent modeling assumptions. The repository includes a synthetic offline example and deterministic tests.
+An **MIT-licensed Python and Streamlit research project** exploring intraday opening-range patterns and reproducible backtesting.
 
-> Research software only. Backtest results are hypothetical and are not investment advice or a prediction of future performance.
+- **Data integrity:** require correctly aligned market candles instead of silently substituting missing observations.
+- **Correctness:** validate trade timing and price inputs, and include transaction costs in simulated returns.
+- **Reproducibility:** maintain automated tests, GitHub Actions checks, and an offline synthetic example.
 
-## Open-source contributions
+[Explore the project →](https://github.com/shizwan/stocks-prediction) · [Read the methodology →](https://github.com/shizwan/stocks-prediction/blob/main/BACKTESTING_OVERVIEW.md)
 
-- [Open Source Radar #402](https://github.com/TanbirRamim/open-source-radar/pull/402) — hardened cached policy timestamp handling; merged.
-- [Open Source Radar #403](https://github.com/TanbirRamim/open-source-radar/pull/403) — added regression tests for API fallback and unknown results; merged.
-- [Show Receipts #36](https://github.com/TanbirRamim/show-receipts/pull/36) — proposed recognition for Dart, Flutter, Detekt, and Terraform lint checks; closed without merge.
-- [ChunkHound #472](https://github.com/chunkhound/chunkhound/pull/472) — proposed a logging fix for Loguru placeholders; open.
+*Experimental research software; backtest results are hypothetical, not financial advice.*
 
-## Tools and interests
+## 🤝 Open-source contributions
 
-Python · TypeScript · automated testing · developer tools · AI-assisted workflows · reproducible research
+I contribute targeted fixes and regression tests to projects maintained by other developers.
 
----
+**Merged upstream**
+- ✅ **[Open Source Radar #402](https://github.com/TanbirRamim/open-source-radar/pull/402)** — Hardened cache refreshes against malformed policy timestamps.
+- ✅ **[Open Source Radar #403](https://github.com/TanbirRamim/open-source-radar/pull/403)** — Added test coverage for API batch failures and individual retries, preserving the distinction between unknown and zero results.
 
-[GitHub](https://github.com/shizwan) · [OpenRange Backtest](https://github.com/shizwan/stocks-prediction)
+**Contribution under review**
+- 🔧 **[ChunkHound #472](https://github.com/chunkhound/chunkhound/pull/472)** — Corrected Loguru diagnostic formatting and added regression protection.
+
+## 🧰 Technical interests
+
+`Python` · `TypeScript` · `AI-assisted development` · `Workflow automation` · `Testing & CI` · `Developer tools` · `Reproducible research`
+
+## 🌱 Why I build in the open
+
+Good engineering is more than code that runs. It means **clear assumptions, observable failures, useful tests, and knowledge others can build on**.
+
+I want to help make open-source projects easier to understand, contribute to, and trust—through thoughtful fixes, reproducible examples, and accessible documentation.
+
+**Open to collaborating on:** AI automation, developer tooling, data reliability, and practical open-source software.
